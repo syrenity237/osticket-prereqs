@@ -22,10 +22,19 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
+- Install / Enable IIS in Windows WITH
+CGI and Common HTTP Features
+(World Wide Web Services -> Application Development Features ->
+[X] CGI
+[X] Common HTTP Features)
+
+-  install/ Enable IIS Management Console
+(Internet Information Services -> Web Management Tools -> IIS Management Console
+	[X] IIS Management Console)
+
+- Download and install PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi)
+
+- 
 - Item 5
 
 <h2>Installation Steps</h2>
