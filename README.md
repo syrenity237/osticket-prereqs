@@ -8,7 +8,6 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Video Demonstration</h2>
 
-- ### [YouTube: How To Install osTicket with Prerequisites](https://www.youtube.com)
 
 <h2>Environments and Technologies Used</h2>
 
@@ -32,10 +31,19 @@ CGI and Common HTTP Features
 (Internet Information Services -> Web Management Tools -> IIS Management Console
 	[X] IIS Management Console)
 
-- Download and install PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi)
+- Download and install PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi) (https://drive.google.com/file/d/1RHsNd4eWIOwaNpj3JW4vzzmzNUH86wY_/view?usp=share_link)
 
-- 
-- Item 5
+- Download and install the Rewrite Module (rewrite_amd64_en-US.msi) (https://drive.google.com/file/d/1tIK9GZBKj1JyUP87eewxgdNqn9pZmVmY/view?usp=share_link)
+
+- Create the directory C:\PHP
+ 
+ -  Download PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) and unzip the contents into C:\PHP (https://drive.google.com/file/d/1snNMtLdCOpMtkCyD4mvl9yOOmvVIp9fP/view?usp=share_link)
+ -  Download and install VC_redist.x86.exe. (https://drive.google.com/file/d/1s1OsGF3-ioO0_9LYizPRiVuIkb3lFJgH/view?usp=share_link)
+ -  download and install MySQL 5.5.62 (mysql-5.5.62-win32.msi) (https://drive.google.com/file/d/1_OWh9p7VQLcrB0q_V7qT8yHl0xo5gv7z/view?usp=share_link)
+Typical Setup ->
+Launch Configuration Wizard (after install) ->
+Standard Configuration ->
+Password1
 
 <h2>Installation Steps</h2>
 
