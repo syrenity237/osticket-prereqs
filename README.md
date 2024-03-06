@@ -48,7 +48,7 @@ Password1
 <h2>Installation Steps</h2>
 
 <p>
-![image](https://github.com/syrenity237/osticket-prereqs/assets/160354405/518fc698-88dc-4fd6-a1b4-887b3c6f07d9)
+https://i.imgur.com/6Z3QPJM.png
 
 </p>
 <p>
