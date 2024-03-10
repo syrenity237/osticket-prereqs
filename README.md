@@ -59,7 +59,7 @@ After finishing the prerequisites i download the osTicket from my file folders a
 <img src="https://i.imgur.com/cXSLzxC.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+You then go to and click sites in IIS and press Default web site then press osTicket. Then on right side click Browse *80 which brings up osTicket installer on browser.
 </p>
 <br />
 
