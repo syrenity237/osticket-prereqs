@@ -67,10 +67,17 @@ You then go to and click sites in IIS and press Default web site then press osTi
 <p>
 <img src="https://i.imgur.com/UsSGbxw.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
-Then rename ost-sampleconfig.php to ost-config.php go back to file explorer clicl open on osTicket the open include then find ost-sampleconfig.php to rename. Then right click ost-config.php the click on properties and click security then press advance at the bottom then press disable inheritance then remove all inherited premissions from this object. Then click add and click select a principal and tpye everyone then press check names and ok. then press full control and ok and apply and ok again.  
+Then rename ost-sampleconfig.php to ost-config.php go back to file explorer click open on osTicket the open include then find ost-sampleconfig.php to rename. Then right click ost-config.php the click on properties and click security then press advance at the bottom then press disable inheritance then remove all inherited premissions from this object. Then click add and click select a principal and tpye everyone then press check names and ok. then press full control and ok and apply and ok again.  
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>	
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+ <br />
+	
+<img src="https://i.imgur.com/LEvbqxw.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>	
+
+Continue setting up osTicket in the browser click continue and fill out all information needed in system settings and Admin User. Now have to download and install HeidiSQL(https://docs.google.com/document/d/1WovrX2DaS9xkfaSr4LXyB4YnnWpXIgPCMMbbfgHmGVw/edit).Open HeidiSQL click new and on the right put in the passswod then press open. now need to create a database right click the blue unnamed and press create new and then database and name it osTicket after that back to the osTicket browser tpye in MySQL Database: osTicket, MySQL Username: root, and MySQL Password: Password1 then click install now and it finished installing.
+
 </p>
 <br />
+<img src="https://i.imgur.com/1US9ez2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+Then do a clean up and Delet this C:\inetpub\wwwroot\osTicket\setup go to file explorer to delete the setup file then go to file include open it and find ost-config.php go to properties and Set Permissions to “Read” only and with that the osTicket is ready to log in.
