@@ -65,8 +65,10 @@ You then go to and click sites in IIS and press Default web site then press osTi
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/UsSGbxw.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+Then rename ost-sampleconfig.php to ost-config.php go back to file explorer clicl open on osTicket the open include then find ost-sampleconfig.php to rename. Then right click ost-config.php the click on properties and click security then press advance at the bottom then press disable inheritance then remove all inherited premissions from this object. Then click add and click select a principal and tpye everyone then press check names and ok. then press full control and ok and apply and ok again.  
+
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>	
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
