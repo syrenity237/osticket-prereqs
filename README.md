@@ -51,7 +51,7 @@ Password1
 <img src="https://i.imgur.com/6Z3QPJM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-After finishing the prerequisites i download the osTicket from my file folders and then exact the copy "upload" folder to c:\inetpub\wwwroot then rename upload to osTicket. After that go to IIS (internet Information Services) and restart server.
+After finishing the prerequisites download the osTicket from my file folders and then exact the copy "upload" folder to c:\inetpub\wwwroot then rename upload to osTicket. After that go to IIS (internet Information Services) and restart server.
 </p>
 <br />
 
@@ -67,7 +67,7 @@ You then go to and click sites in IIS and press Default web site then press osTi
 <p>
 <img src="https://i.imgur.com/UsSGbxw.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
-Then rename ost-sampleconfig.php to ost-config.php go back to file explorer click open on osTicket the open include then find ost-sampleconfig.php to rename. Then right click ost-config.php the click on properties and click security then press advance at the bottom then press disable inheritance then remove all inherited premissions from this object. Then click add and click select a principal and tpye everyone then press check names and ok. then press full control and ok and apply and ok again.  
+Then rename ost-sampleconfig.php to ost-config.php go back to file explorer click open on osTicket the open include then find ost-sampleconfig.php to rename. Then right click ost-config.php the click on properties and click security then press advance at the bottom then press disable inheritance then remove all inherited premissions from this object. Then click add and click select a principal and type everyone then press check names and ok. Then press full control and ok and apply and ok again.  
 
 <p>
  <br />
@@ -80,4 +80,11 @@ Continue setting up osTicket in the browser click continue and fill out all info
 <br />
 <img src="https://i.imgur.com/1US9ez2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-Then do a clean up and Delet this C:\inetpub\wwwroot\osTicket\setup go to file explorer to delete the setup file then go to file include open it and find ost-config.php go to properties and Set Permissions to “Read” only and with that the osTicket is ready to log in.
+Then do a clean up by Deleting the "setup" file in C:\inetpub\wwwroot\osTicket\setup after deleteintg the "setup" file in file explorer then go to the file "include" open it and find ost-config.php go to properties and Set Permissions to “Read” only and with that the osTicket is ready to log in.
+
+
+<p>
+ <br />
+
+ 
+
